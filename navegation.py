@@ -26,4 +26,8 @@ driver.forward()
 print(driver.current_url)
 time.sleep(5)
 
+#Refresh Method
+driver.refresh()
+print(driver.current_url)
+time.sleep(5)
 
