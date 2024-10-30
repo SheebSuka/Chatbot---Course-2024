@@ -1,5 +1,18 @@
 from selenium import webdriver
 import time
-driver= webdriver.Chrome()
+
+# Ejecutamos las opciones
+options = webdriver.ChromeOptions()
+options.add_argument(
+    "user-data-dir=C:\\Users\\santy\\AppData\\Local\\Google\\Chrome\\User Data\\Default")
+
+
+driver = webdriver.Chrome(options=options)
+
+# Tamaño vetnatan
+driver.set_window_size(1024, 720)
+driver.set_window_position(0, 0)
+
 driver.get("https://web.whatsapp.com/")
-time.sleep(300)
+
+time.sleep(3600)
