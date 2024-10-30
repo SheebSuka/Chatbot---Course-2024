@@ -16,3 +16,6 @@ driver.set_window_position(0, 0)
 driver.get("https://web.whatsapp.com/")
 
 time.sleep(3600)
+
+# //*[@id="pane-side"]/descendant::span[contains(@aria-label,'Unread')]
+# //*[@id="main"]/descendant::div[@role='row']
