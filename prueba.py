@@ -40,7 +40,7 @@ while(True):
 
     #Notificar al usuario, que se envia el texto 
     print('sending message to lenguaje service')
-    api_message = "Vieja Penda <-- Att: Chatbot ñejeje"
+    api_message = "Alivianese o la meo <-- Att: Chatbot ñejeje"
     message_element = driver.find_element(By.XPATH, '//*[@id="main"]/footer/div[1]/div/span/div/div[2]/div[1]/div/div[1]')
     message_element.send_keys(f'{api_message}{Keys.ENTER}')
     message_element.send_keys(Keys.ESCAPE)
